@@ -1,0 +1,33 @@
+body {
+  background-image: url("https://img.freepik.com/free-vector/wave-background_53876-115944.jpg?size=626&ext=jpg&ga=GA1.2.1474197166.1678940925&semt=ais");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px;
+  font-family: "Times New Roman", sans-serif;
+  color: rgb(0, 0, 3);
+  font-weight: bold;
+  font-size: large;
+}
+form {
+  position: relative;
+  top: 50px;
+  right: 5px;
+}
+.row {
+  margin-top: 10px;
+}
+button {
+  margin-top: 10px;
+  position: relative;
+  right: 100px;
+}
+#pass {
+  -webkit-text-security: disc;
+}
+span {
+  color: red;
+}
+::placeholder {
+  color: blueviolet;
+  font-weight: bold;
+}
